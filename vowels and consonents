@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<ctype.h>
+#include<stdlib.h>
+#include<string.h>
+int main(){
+int i,m,vow=0,cons=0,c=0,S=0;	
+char a[3];
+puts("enter string");
+gets(a);
+m=strlen(a);
+for(i=0;i<m;i++){
+	if(tolower(a[i])=='a'||tolower(a[i])=='e'||tolower(a[i])=='i'||tolower(a[i])=='o'||tolower(a[i])=='u'){
+		vow++;
+	}
+	else if(isalpha(a[i])){
+		cons++;
+	}
+}	
+printf("vowels in string :%d",vow);
+printf("\nconsonents in string :%d",cons);	
+}

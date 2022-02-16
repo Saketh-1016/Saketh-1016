@@ -1,0 +1,27 @@
+#include<stdio.h>
+struct a{
+char name[32];
+int claas;
+int age;	
+}s1,s2,s3;
+int main(){
+int i;
+scanf("%s",s1.name);
+scanf("%d",&s1.claas);
+scanf("%d",&s1.age);
+scanf("%s",s2.name);
+scanf("%d",&s2.claas);
+scanf("%d",&s2.age);
+scanf("%s",s3.name);
+scanf("%d",&s3.claas);
+scanf("%d",&s3.age);
+printf("name of student 1 is %s\n",s1.name);
+printf("class of student 1 is %d\n",s1.claas);
+printf("age of student 1 is %d\n",s1.age);
+printf("name of student 2 is %s\n",s2.name);
+printf("class of student 2 is %d\n",s2.claas);
+printf("age of student 2 is %d\n",s2.age);
+printf("name of student 3 is %s\n",s3.name);
+printf("class of student 3 is %d\n",s3.claas);
+printf("age of student 3 is %d\n",s3.age);	
+}

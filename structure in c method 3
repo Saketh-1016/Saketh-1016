@@ -1,0 +1,20 @@
+#include<stdio.h>
+struct a{
+char name[32];
+int claas;
+int age;	
+}s[21];
+int main(){
+int i,m;
+printf("enter no of students :");
+scanf("%d",&m);
+for(i=0;i<m;i++){
+	scanf("%s",s[i].name);
+	scanf("%d",&s[i].claas);
+	scanf("%d",&s[i].age);
+}
+for(i=0;i<m;i++){
+	printf("student %d details :\n name = %s \n class = %d\n age = %d\n",i+1,s[i].name,s[i].claas,s[i].age);
+}
+
+}
